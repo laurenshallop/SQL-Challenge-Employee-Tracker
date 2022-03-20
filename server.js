@@ -1,7 +1,7 @@
 //const express = require('express'); // do i need this?
 const inquirer = require("inquirer");
 //const res = require(''); // do i need this?
-const mysql = require('mysql2');
+const mysql = require("mysql");
 require("console.table");
 
 
