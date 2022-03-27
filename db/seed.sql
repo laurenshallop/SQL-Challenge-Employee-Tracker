@@ -29,4 +29,4 @@ VALUES
 ("Ariana", "Bickham", 5),
 ("Alexandria", "Camacho", 4);
 
-SELECT * FROM department;
+/*SELECT * FROM department;
