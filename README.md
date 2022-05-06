@@ -1,3 +1,21 @@
+## Table of Contents
+
+## License
+
+## Description
+
+This application manages a business owners employee database using Node.JS, inquirer, and MySQL. 
+
+## Installation
+
+After cloning the application to your terminal go to the root of the project directory. Enter in the terminal 'npm init-y' and 'npm i express inquirer mysql2 '
+
+
+## Usage
+
+Run the following command 'node server.js' and you will see the optoins. You can click to view departments, roles or employees. You can add a department, role or employee. You can update an employee role. 
+
+
 # SQL-Challenge-Employee-Tracker
 The employee tracker allows the user to Create, Read, Update and Delete specific data related to employees. The program uses a MySQL database to store the information. 
 

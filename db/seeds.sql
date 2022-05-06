@@ -1,6 +1,6 @@
 /*USE employee_db;*/
 
-INSERT INTO department(ame)
+INSERT INTO Department (name)
 VALUES
 ("Sales"),
 ("Engineering"),
