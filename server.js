@@ -48,7 +48,7 @@ const promptUser = () => {
             }
         ])
         .then((answers) => {
-            const {choices} = answers.menu;
+            const choices = answers.menu;
                 if (choices === 'View all Departments') {
                     showDepartments();
                 }
@@ -92,7 +92,7 @@ showDepartments = () => {
 // show all roles
 showRoles = () => {
     console.log('Viewing all roles');
-    const sql = `SELECT role.id, role.title, role.salary, d.name AS department FROM role INNER JOIN department ON role.department_id = department.id;`;
+    const sql = `SELECT role.id, role.title, department.name AS department FROM role INNER JOIN department ON role.department_id = department.id;`;
     connection.query(sql, (err, rows) => {
         if (err) throw err;
         console.table(rows);
